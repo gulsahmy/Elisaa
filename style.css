@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+    
+}
+
+.ana-div {
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;   
+}
+
+.sol-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.sag-div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;   
+    margin-right: 10px; 
+    white-space: nowrap;
+}
+.sag-div a:hover{
+    text-decoration: underline;
+}
+
+.mattel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mattel input{
+    border: 1px solid gray;
+    width: 15rem;
+    border-radius: 25px;
+    padding: 10px;
+    height: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.tüm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    padding: 15px;
+}
+.ikisag-div a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: larger;   
+    margin-right: 10px; 
+    white-space: nowrap;
+
+}
+.ikisag-div a:hover{
+    text-decoration: underline;
+
+}
+::placeholder{
+    font-size: small;
+    font-weight: bold;
+}
+.barbie{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(228, 16, 171);
+    
+    
+}
+.barbie1{
+    flex: auto;
+    text-align: center;
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;        
+}
+.barbie1 a{
+    color: white;
+    text-decoration: none;
+}
+.barbie2{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    
+}
+.barbie2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;   
+    margin-right: 40px; 
+    color: white;
+    font-size: 1.1rem;
+}
+.reveal{
+    display: flex;   
+    overflow: hidden; 
+}
+.reveal1{
+    flex-grow: 1;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+.reveal1 img{
+    width: 100%;
+    height: 100%;    
+}
+.rsmyazı{
+    position: absolute;
+    top: 30%;
+    left: 10%;   
+    z-index: 2;
+    overflow: auto;
+    overflow: hidden;
+}
+.reveal2{
+    flex-grow: 1;   
+    cursor: pointer;  
+}
+.reveal2 img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    font-weight: 100;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(54, 52, 52);
+    width: 9rem;
+    height: 3rem;
+    border-radius: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sabit{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: rgb(228, 16, 171) ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding: 5px;
+}
+.reveal2{
+    position: relative;
+}
+.sag-sabit{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 3px;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.rsmyazı a{
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.head{
+    background-color: rgb(247, 246, 244);
+    text-align: center;
+    cursor: pointer;
+}
+.pop h1{
+    font-size: 2rem;
+    padding: 30px;
+    text-align: left ;
+}
+.resimler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resimlerr img{
+    width: 250px;  
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+}
+.resimlerr img:hover{
+    opacity: 0.6;
+}
+.b1:hover{
+    cursor: pointer;    
+}
+.resimlerr{
+    position: relative;
+    display: inline-block;
+}
+.bar{
+    position: relative;
+    text-align: center;
+    
+}
+.bar img{
+    display: block;
+    margin: 0 auto;
+}
+.parb{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    color: black;
+}
+main{
+    display: flex;
+    padding: 70px;
+    gap: 1rem;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+main img{
+    width: 300px; 
+    cursor: pointer;  
+}
+.sept{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.841);
+}
+.parca{
+    font-weight: 100;
+}
+.SA{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.841) ;
+    border: none;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px ;
+    cursor: pointer;
+}
+
+
+#grid-container{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 1rem;
+    cursor: pointer; 
+    /* border: 2px solid green; */
+    
+}
+.grid-cont1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1/8;
+    background-color: rgb(221, 28, 133);  
+    position: relative;     
+}
+.grid{
+    /* border: 5px solid purple; */
+}
+
+
+.cont2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: 1/4;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.cont2 img{
+    width: 100%;
+    height: 100%;
+}
+.cont3{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row: 1/4;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.cont3 img{
+    width: 100%;
+    height: 100%;
+}
+.cont4{
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row: 1/4;
+    /* background-color: purple; */
+    overflow: hidden;
+}
+.cont4 img{
+    width: 100%;
+    height: 100%;
+}
+.cont5{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: 4/8;
+    /* background-color: magenta; */
+    overflow: hidden;    
+}
+.cont5 img{
+    width: 100%;
+    height: 100%;
+}
+.cont6{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row: 4/8;
+    /* background-color: gray; */
+    overflow: hidden;    
+}
+.cont6 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sonsbt{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    color: white;
+}
+.sonpar{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    font-weight: 100;
+}
+.sonpar p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    
+}
+.sonbtn{
+    background-color: white;
+    color: black;
+    border: none;
+    white-space: nowrap;
+    width: 12rem;
+    height: 3rem;
+}
+/* .linkler a, h6{
+    display: block;
+    margin-bottom: 10px;  
+    color: black;
+    text-decoration: none;  
+} */
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.tası{
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+    height: 30rem;
+    /* border: 2px solid red;   */
+    overflow: hidden;
+}
+.tası a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+}
+.tası a:hover{
+    text-decoration: underline;
+}
+.param{
+    font-weight: 100;
+}
+
+
+
+
+
+@media screen and (max-width:1400px){
+    .reveal1{
+        z-index: 5;      
+    }
+
+    .rsmyazı h1{
+        font-size: x-large;
+        font-weight: bold;        
+    }  
+    
+    .rsmyazı p{
+        font-weight: 50;        
+    }
+    .rsmyazı button{
+        width: 6rem;
+        font-size: medium;
+        height: 2rem;
+    }
+    
+}
+@media screen and (max-width:1220px) {
+
+    .sonpar button{
+        display: none;
+        
+    }
+       
+}
+@media screen and (max-width:1000px) {
+    
+    .reveal{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .sabit{
+        display: none;
+    }
+    .rsmyazı{
+        overflow: auto;
+    }
+}
+@media screen and (max-width:973px){
+
+   .ana-div{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+   } 
+      .tüm{
+    flex-direction: column;
+    
+   }
+       
+}
+@media screen and(max-width:750px) {
+    .tası{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        padding-top: 50px;
+        height: 30rem;
+       
+    }
+    
+}
+@media screen and (max-width:610px) {
+
+    #grid-container{
+        height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, 1fr);
+    } 
+    .sonpar{
+        z-index: 1;
+        width: 100%;
+    }
+    .grid{
+        z-index: 2;
+        display: none;
+    }
+    
+    
+}
+@media screen and(max-width:500px) {
+
+    .barbie2{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }   
+   
+}
+@media screen and (max-width:460px) {
+    .rsmyazı p{
+        font-size: small;
+    }
+    .rsmyazı button{
+        display: none;
+    }
+    .sag-sabit{
+        display: none;
+    }
+    .mattel{
+        display: flex;
+        flex-direction: column;        
+    }
+    
+}
+@media screen and (max-width:260px) {
+    .mattel input{
+        display: none;
+    }  
+    
+}
+
+
+
+
+
+
+
